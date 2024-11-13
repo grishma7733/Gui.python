@@ -3,18 +3,28 @@ Quickshare is a Python-based application for transferring files over a local net
 
 Features
 •	File Transfer Over Local Network: Transfer files to other devices on the same network.
+
 •	GUI with Tkinter: User-friendly interface for selecting, sending, and receiving files.
+
 •	SQLite Database Integration: Records file names of sent and received files.
+
 •	TCP Socket Communication: Ensures reliable file transfer between devices.
 
 
 Requirements
+
 •	Python 3.x
+
 •	Required libraries: Tkinter, SQLite3, and socket (included with Python)
+
 •	Images for GUI icons and backgrounds (located in the specified paths)
+
 Project Structure
+
 •	Main Application: Provides a GUI with buttons to either "Send" or "Receive" files.
+
 •	Send Module: Allows users to select a file and send it to another device.
+
 •	Receive Module: Accepts files sent from another device.
 
 
